@@ -120,9 +120,6 @@
 
 </details>
 
-
-
-
 ### [가위바위보 시뮬레이터, 가위바위보가 움직이면서 싸우면 누가 이길지 예측해보자](https://github.com/shinkeonkim/rsp-simulator)
 
 - 단순한 시뮬레이션 웹 페이지
@@ -145,6 +142,58 @@
   - 이후 추가하고 싶었지만 시간을 더이상 투자하지 않았다..
 
 </details>
+
+### [what-did-you-do-today, 당신은 오늘 백준을 풀었는가? (알고리즘스터디 내 활용)](https://github.com/shinkeonkim/what-did-you-do-today)
+
+- 알고리즘 스터디 내에서 매일 1일 1문제를 풀기 위해서 자동으로 체크해주는 웹 서비스를 만듬
+- 그리고 벌금을 자동으로 책정하여 대시보드로 보여줌
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 알고리즘 스터디 내에서 매일 개인의 기록을 확인하는게 힘들었기 때문에
+
+#### 🍿 What & How
+- 매일 정각마다 기록을 확인하는 과정이 필요했음.
+  - cron이나 별도 job을 통해 돌릴 수 있었지만 더 간단하게 인프라 없이 해결할 방법을 고민했음.
+    - -> github actions에서 trigger로 schedule을 추가해두고 특정 키와 함께 요청을 보내면 정보 갱신을 하도록 했음
+
+</details>
+
+
+<!--
+
+### 
+
+- 
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 
+
+#### 🍿 What & How
+- 
+
+</details>
+
+-->
+
+
+
+
+
+
+
+
+
+
 
 
 ## Paused
@@ -182,6 +231,28 @@
 - react-notion-x 패키지를 사용하면 쉽게 할 수 있었다. 하지만 생각보다 기존 블로그에 비해 이점이 크게 느껴지지 않아 중단했다.
 
 </details>
+
+
+### [1day1commit](https://github.com/shinkeonkim/1day1commit)
+
+- 1일 1커밋을 하지 않은 날에 알림이 오게 하는 앱을 만들자
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 1일 1커밋에 미쳐있던 시기가 있었다.
+
+#### 🍿 What & How
+- Expo를 통해 앱을 만들고 별도 서버에서 1일 1커밋을 꾸준히 체킹하는 식으로 하고 싶었다.
+- 하지만 1일 1커밋을 이렇게까지 체크해야 하는가?와 별도 캘린더 앱을 통해서 체크할 수 있지 않을까 라는 생각으로 중단했다.
+
+</details>
+
+
+
 
 <!--
 
