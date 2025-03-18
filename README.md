@@ -23,6 +23,22 @@
 
 </details>
 
+### [build-testing, Docker 이미지 빌드 후 dockerhub에 올리기](https://github.com/shinkeonkim/build-testing)
+- dionysus 프로젝트를 진행하면서 필요한 과정이었는데, 프로젝트에 도입하기 전에 한번 실험해보고 싶었다.  
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- dionysus 프로젝트를 진행하면서 필요한 과정이었는데, 프로젝트에 도입하기 전에 한번 실험해보고 싶었다. 
+
+#### 🍿 What & How
+- 간단한 Python Docker container를 dockerhub에 올렸다.
+
+</details>
+
 ### [fxck-pdf, PDF 파일에 대한 다양한 기능을 제공하는 GUI 프로그램](https://github.com/shinkeonkim/fuck-pdf)
 
 - PDF 병합 기능, PDF 페이지 삭제 기능, 홀수 페이지 / 짝수 페이지 PDF 파일 병합 기능, PDF 페이지 회전 기능을 제공한다.
@@ -82,7 +98,30 @@
 
 </details>
 
-## Paused
+## What If? (더 개선할 수 있지 않을까 싶지만, 핵심 기능은 완성했다.)
+
+### [BOJ to PDF, 백준을 PDF 파일로 변환](https://github.com/shinkeonkim/boj-to-pdf)
+- 백준 문제 목록을 받아서, 하나의 PDF 파일로 변환해주는 python 스크립트
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 백준 문제를 버스/지하철에서 주로 푸는데, 메모와 웹 브라우저를 번갈아가며 보는게 불편했다.
+- PDF 파일로 저장하여 보면 참 편할 것 같았다.
+
+#### 🍿 What & How
+- 백준 페이지들을 PDF로 변환해야 한다.
+  - -> BeautifulSoup4를 활용하여 웹 페이지 접근 후 PDF로 추출하자.
+- 동시에 여러 페이지를 처리하고 싶다.
+  - -> asyncio 도입
+
+</details>
+
+
+
 
 ### [가위바위보 시뮬레이터, 가위바위보가 움직이면서 싸우면 누가 이길지 예측해보자](https://github.com/shinkeonkim/rsp-simulator)
 
@@ -108,6 +147,7 @@
 </details>
 
 
+## Paused
 
 ### [wordle-online](https://github.com/shinkeonkim/wordle-online)
 
@@ -123,6 +163,23 @@
 
 #### 🍿 What & How
 - 진행중에 시간이 부족해 포기하고 있었음.. 이후 다시 간단하게 시도해볼 예정
+
+</details>
+
+### [notion-blog, 노션을 활용한 블로그](https://github.com/shinkeonkim/notion-blog)
+
+- 노션 정보를 가져와, React.js 상에서 커스텀을 추가해보자
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 블로그를 여러 곳에서 한번 써보자는 생각으로 만들어봤다.
+
+#### 🍿 What & How
+- react-notion-x 패키지를 사용하면 쉽게 할 수 있었다. 하지만 생각보다 기존 블로그에 비해 이점이 크게 느껴지지 않아 중단했다.
 
 </details>
 
