@@ -79,6 +79,37 @@
 
 ### [Algo Sports Front](https://github.com/Algo-Sports/algo-sports-front)
 
+### [khonshu - 오늘의 달 모양은?](https://github.com/shinkeonkim/khonshu)
+- 오늘의 달 모양을 보여주는 웹 페이지
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- [문나이트 드라마](https://www.disneyplus.com/ko-kr/series/moon-knight/4S3oOF1knocS)를 보다가, 대뜸 달 모양에 집중하게 되었다.
+- 하늘을 보러 나가지 않으니, 안에서라도 달 모양을 보자고 생각해서 만들게 되었다.
+
+#### 🍿 What & How
+- 달 모양을 만들어야 했다. 관련 글을 찾아보았고 거의 그대로 구현했다.
+- 날짜를 임의로 조절하여 보는 기능도 추가하면 좋을 것 같긴 하다.
+
+### [mooyaho - 무야호 짤 생성기](https://github.com/shinkeonkim/mooyaho)
+- 무야호 대사 대신에 다른 글자를 넣어 이미지를 만들 수 있는 웹 페이지이다.
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 무야호 밈이 너무 유행하여, 한번 짤 생성기를 만들어볼까? 라는 단순한 생각에서 시작했었다.
+
+#### 🍿 What & How
+- Vue.js를 한창 쓰고 있었기 때문에 바로 도입해서 사용해보았다.
+- 현재는 Vue.js 관련 내용을 CDN으로 불러오지 못해서 오류가 나 사용이 안된다.
+
 ## In Progress
 
 ### [Memez 백엔드 프로젝트 - Dionysus](https://github.com/meme-party/dionysus)
