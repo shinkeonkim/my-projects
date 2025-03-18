@@ -107,6 +107,25 @@
 
 </details>
 
+
+
+### [wordle-online](https://github.com/shinkeonkim/wordle-online)
+
+- wordle 게임을 온라인에서 여러명이 같이 하는 방법이 없을까?
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- wordle 게임을 혼자 하다가, 뭔가 다같이 하는 사이트를 만드는 겸, websocket을 써볼 수 있지 않을까 해서 만들어볼까 한 프로젝트
+
+#### 🍿 What & How
+- 진행중에 시간이 부족해 포기하고 있었음.. 이후 다시 간단하게 시도해볼 예정
+
+</details>
+
 <!--
 
 ### 
