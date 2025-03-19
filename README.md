@@ -1,6 +1,8 @@
 # my-projects
 지금까지 진행했던 프로젝트들을 정리합니다
 
+<div id="done-projects">
+
 ## Done
 
 ### [pr-archiving, Github PR을 모두 저장할 수 있어요](https://github.com/shinkeonkim/pr-archiving)
@@ -115,6 +117,52 @@
 
 </details>
 
+### [Xaskify, 페이지 내의 글자를 모두 마스킹하자](https://github.com/shinkeonkim/xaskify.git)
+
+- 아래와 같이 특정 dom 객체의 하위 요소의 텍스트를 모두 원하는 글자로 마스킹할 수 있게 하는 npm 패키지다.
+```js
+import xaskify from "xaskify";
+xaskify(document.getElementsByTagName("body")[0], "X");
+```
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 웹 페이지 스크린샷을 찍는 중에도, 일부 개인정보나 민감한 정보가 나오는 상황이 애매했다.
+- 그렇다고 그때그때 일일이 가리는 작업을 하기에도 애매해서 해당 패키지를 사용했다.
+
+#### 🍿 What & How
+- 모든 요소가 다 마스킹되어야 한다.
+  - -> 재귀적으로 자식 객체를 탐색하며 모두 마스킹시키자.
+- 크롬 익스텐션으로 만들어보면 좋을 것 같다.
+  - 중단됨
+</details>
+
+### [paeon, 사업자등록번호와 상호명으로 검색하는 서비스](https://github.com/shinkeonkim/paeon)
+
+- 공공데이터를 이용해 사업자등록번호 또는 상호명을 통해 기업 정보를 확인하는 서비스
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 그랩 채용서비스 내의 구조 상 해당 정보들을 검증하고 다시 입력하는 과정을 내부 운영자가 하고 있었다. 근데 정확한 문자를 입력해야 하는 상황인데 계속 실수가 발생할 여지가 많았던 굉장히 불편한 과정이었다.
+
+
+#### 🍿 What & How
+- 모든 회사의 데이터를 가져와야 한다.
+  - 꼭 주기적으로 돌 필요까지는 없다고 생각했다.
+  - 이에, 모든 회사 정보를 reload하는 별도 util과 이를 이용하는 어드민 액션을 추가했다.
+
+</div>
+
+<div id="in_progress-projects">
+
 ## In Progress
 
 ### [Memez 백엔드 프로젝트 - Dionysus](https://github.com/meme-party/dionysus)
@@ -133,6 +181,10 @@
 - 
 
 </details>
+
+</div>
+
+<div id="what_if-projects">
 
 ## What If? (더 개선할 수 있지 않을까 싶지만, 핵심 기능은 완성했다.)
 
@@ -199,12 +251,9 @@
 
 </details>
 
+### [basic_django_template, 같은 이름으로 생기는 django-admin startproject가 싫다](https://github.com/shinkeonkim/basic_django_template)
 
-<!--
-
-### 
-
-- 
+- 프로젝트명과 앱명이 같은 이름으로 생기는 django-admin startproject가 싫었기에 만든 템플릿 프로젝트
 
 <details>
 <summary>
@@ -212,25 +261,43 @@
 </summary>
 
 #### ❓ why
-- 
+- 프로젝트명과 앱명이 같은 이름으로 생기는 django-admin startproject가 싫었다.
 
 #### 🍿 What & How
-- 
+- 기존 템플릿이 있더라도 쉽게 가져가서 쓸 수 있어야 한다.
+  - django-admin startpeoject의 --template 을 활용하여 해당 템플릿을 쉽게 활용할 수 있게 하자.
+- 조금 더 개선할 여지가 있지 않을까?
+  - dockerize 등 기타 요소도 추가하여 만들자 -> [dpd_template](https://github.com/shinkeonkim/dpd_template)
+  - 이것도 너무 예전에 만든 것 같아서 최신화가 필요하다.
+- 사용자가 shell에서 더 설정하는 식으로 할 수 없을까?
 
 </details>
 
--->
+### [drawing, 간단 그림판](https://github.com/shinkeonkim/drawing)
+
+- 흰 화면에서 간단한 그림을 그리자.
+- 획 크기 조절, 모두 지우기 기능 제공
 
 
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 단지 흰 화면에서 그림을 간단하게 그리고 싶었다.
+- canvas를 다루는 간단한 예제를 만들고 싶었다.
+
+#### 🍿 What & How
+- 색깔을 더 추가해도 될 것 같다.
+- 아이패드/휴대폰 등에서 터치 이벤트가 추가되어도 좋을 것 같다.
+
+</details>
 
 
+</div>
 
-
-
-
-
-
-
+<div id="paused-projects">
 
 ## Paused
 
@@ -286,6 +353,8 @@
 - 하지만 1일 1커밋을 이렇게까지 체크해야 하는가?와 별도 캘린더 앱을 통해서 체크할 수 있지 않을까 라는 생각으로 중단했다.
 
 </details>
+
+</div>
 
 
 
