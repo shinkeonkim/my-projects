@@ -159,6 +159,243 @@ xaskify(document.getElementsByTagName("body")[0], "X");
   - 꼭 주기적으로 돌 필요까지는 없다고 생각했다.
   - 이에, 모든 회사 정보를 reload하는 별도 util과 이를 이용하는 어드민 액션을 추가했다.
 
+</details>
+
+### [is_likelion, 이 문자열은 멋쟁이사자처럼인가?](https://github.com/shinkeonkim/is_likelion)
+
+```py
+from is_likelion import is_likelion
+
+is_likelion("likelion") # True
+is_likelion("LikeLiOn") # True
+is_likelion("멋쟁이사자처럼") # True
+is_likelion("lion") # False
+```
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 멋쟁이사자처럼 활동중 python 패키지를 만들어보는 예제를 만들어 보려 했다.
+
+#### 🍿 What & How
+- pypi에 패키지를 배포했다.
+- 간단한 CI 환경으로 구성해서 사용하고 싶었다.
+  - -> travis를 사용했다.
+  - github action으로 바꾸어 사용해도 될 것 같다.
+
+</details>
+
+### [move it!, 빨간 점을 피해 계속해서 상자를 움직여라](https://github.com/shinkeonkim/move-it)
+
+- 간단한 게임 요소를 웹 페이지에서 구현해본 토이 프로젝트
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 드래그 앱 드랍으로 만들만한 게임적 요소를 생각해봤다.
+
+#### 🍿 What & How
+- 사용자가 계속 이걸 하게 될만한 요소는 없을까?
+  - -> 위에 계속해서 시간을 보여주면서 더 오래 버티려고 노력하게 만들었다. 
+
+</details>
+
+### [github-repository-start-date-checker, 특정 일자를 기준으로 Repository가 생겼는가 검증](https://github.com/shinkeonkim/github-repository-start-date-checker)
+
+- Github Repository의 목록이 주어졌을 때 특정 일자 이후로 만들어졌는지 검증하는 프로젝트
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 해커톤 진행 중에 이전부터 개발이 진행되었지 않다는 최소한의 제약으로 Github Repository의 생성일자를 검증하기로 했다.
+
+#### 🍿 What & How
+- 각 레포지터리의 정보는 어떻게 가져오지?
+  - -> github에서 제공하는 API를 이용해서 처리하자.
+
+</details>
+
+### [simulate doves hawks](https://github.com/shinkeonkim/simulate-doves-hawks)
+
+- [이 영상](https://www.youtube.com/watch?v=YNMkADpvO4w)의 내용을 직접 시뮬레이션 해보자
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- [이 영상](https://www.youtube.com/watch?v=YNMkADpvO4w)의 내용을 보다가 직접 시뮬레이션 해보고 싶다고 생각했다.
+
+#### 🍿 What & How
+- 간단하게 변인들을 수정하고 싶었다.
+  - PyQT GUI를 통해 쉽게 바꿔가며 사용할 수 있도록 했다.
+
+</details>
+
+### [Lotteng](https://github.com/hyeoneedyou/lotteng)
+
+- 2020 멋쟁이 사자처럼 X Lotte 8기 해커톤 프로젝트
+- 동상 수상
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 2020 멋쟁이 사자처럼 X Lotte 8기 해커톤에 참가해 진행하게 된 프로젝트
+
+#### 🍿 What & How
+- 간단하면서도 빠르게 웹 개발을 진행해야 했다.
+  - AWS EC2, nginx, gunicorn에 배포하는 과정으로 처리했다.
+  - 추가적인 배포가 반복되거나 유지보수하는 경우가 적기에 인프라는 간소화시켰다.
+
+</details>
+
+### [alcolpedia](https://github.com/kkIIun/alcolpedia)
+
+- 술자리 문화, 술게임 등을 소개하는 웹 서비스
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 멋쟁이사자처럼 내에서 프로젝트 진행 주제가 필요했음. 마침 술을 마시던 중에 팀원이 프로젝트 주제를 떠올렸고, 같이 참여해서 진행했다.
+
+#### 🍿 What & How
+- 내부 컨텐츠
+  - 직접 사진을 제작하거나 녹음해서 제공을 했다.
+
+</details>
+
+### [tabular method cli](https://github.com/shinkeonkim/tabular-method-cli)
+
+- 국민대학교 논리회로설계 강의 시간 중, 배운 tabular method를 구현한 CLI 프로그램
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 국민대학교 논리회로설계 강의 시간 중, 배운 tabular method를 과제로 구현하게 되었다.
+
+</details>
+
+
+### [3d-printer-calibration-program, daVinci 1.1 plus 3D priter calibration을 위한 CLI 프로그램](https://github.com/shinkeonkim/3d-printer-calibration-program)
+
+- daVinci 1.1 plus 3D priter calibration을 도와주는 CLI 프로그램
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 고등학교 3D Printer 방과후 수업 중 느낀 daVinci 1.1 plus calibration 과정의 불편함을 해결하기 위해서 만들었다.
+
+#### 🍿 What & How
+- 조정 나사의 위치와 위치 측정 센서의 위치가 서로 상이한 위치에 있고, 평평함을 조정하기에 불편한 방식이었다.
+  - 간단한 수식을 정리하고 프로그램에 반영
+- 어떤 식으로 돌리는게 최적일지 고민
+  - 간단한 BFS 알고리즘과 백트래킹을 활용해 처리
+  - 지금보면 코드가 굉장히 안좋게 설계된 것으로 보이지만,, 그 당시의 코드를 보관하는 중
+
+</details>
+
+### [Sellon](https://github.com/bunderLikeLion/sellon_frontend)
+
+- 멋쟁이 사자처럼 10기 전체 해커톤
+- 약 900 명 참여, 150팀 중 동상 수상
+- 현대 사회에서 지속적으로 쌓여가는 잡동사니에 대한 공간적 문제를 해결 하고자 하는, 기존 물품과 돈이 거래되는 시장에서 탈피하여 본인에게 현재 필요없는 잡동사니와 잡동사니를 경매식으로 교환하는 플랫폼
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### 🍿 What & How
+- 간단하게 개발을 빠르게 해야 하는 상황이었음
+  - 기존에 만들어둔 dpd template을 참고하여 프로젝트 구성
+- 해커톤 발표시 부하가 있을 수 있다.
+  - 부하를 줄이기 위해 webapp container 추가 고려했지만 큰 부하없는 것으로 확인하여 진행하지 않음.
+
+</details>
+
+### [TTL, Today They Learned](https://github.com/today-they-learned/ttl_api)
+
+- 모든 TIL을 한 곳에서 모아보세요. 📚
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- TIL 글들을 한 곳에서 모아서 볼 수 있는 서비스를 만들어 보자.
+
+#### 🍿 What & How
+- 백엔드와 프론트엔드 별도 개발
+  - -> DRF 를 활용한 API 개발
+- 디자이너/기획자가 별도로 없었음.
+  - 디자이너/기획자의 role을 수행하면서 백엔드 개발 병행
+
+</details>
+
+### [PeacePiece](https://github.com/today-they-learned/peacepiece_api)
+
+- 일상생활 속 환경을 위한 활동을 기반으로 가상공간을 꾸밀 수 있는 웹플랫폼
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- TTL 프로젝트를 같이 진행한 팀원들과 추가적으로 프로젝트를 진행하고자 함.
+
+#### 🍿 What & How
+- 백엔드와 프론트엔드 별도 개발
+  - -> DRF 를 활용한 API 개발
+- 디자이너/기획자가 별도로 없었음.
+  - 디자이너/기획자의 role을 수행하면서 백엔드 개발 병행
+
+</details>
+
+### [peachpitch](https://github.com/shinkeonkim/peachpitch)
+
+- pyqt를 이용한 뮤직 플레이어
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- PyQT를 활용하는 강의 이후 관련 프로젝트 진행을 하게 되었다.
+
+#### 🍿 What & How
+- 음악을 가져올 소스가 필요했다.
+  - 해당 프로젝트가 금전적인 목적이 아니었기에 youtube API를 활용하는 파이썬 패키지를 가져와서 음원을 받아왔고 이를 재생하게 했다.
+- 음원 재생 및 별도 조작 필요
+  - QtPlayer의 API를 적극 채용해서 사용했다.
+
+</details>
+
+
 </div>
 
 <div id="in_progress-projects">
@@ -351,6 +588,71 @@ xaskify(document.getElementsByTagName("body")[0], "X");
 #### 🍿 What & How
 - Expo를 통해 앱을 만들고 별도 서버에서 1일 1커밋을 꾸준히 체킹하는 식으로 하고 싶었다.
 - 하지만 1일 1커밋을 이렇게까지 체크해야 하는가?와 별도 캘린더 앱을 통해서 체크할 수 있지 않을까 라는 생각으로 중단했다.
+
+</details>
+
+### [hangul, 한글 디자인 프로젝트](https://github.com/shinkeonkim/hangul)
+
+- 한글을 소재로 인터랙티프 웹 사이트를 만들 수 있을까?
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 한글을 소재로 인터랙티프 웹 사이트를 만들 수 있을까? 라는 호기심에서 시작했다.
+
+#### 🍿 What & How
+- 첫 메인 페이지는 모든 한글의 글자가 쭈르륵 화면에 노출되면서 강조가 되면 좋겠다는 생각을 했고, 각 글자를 클릭하면 관련 글자들 페이지로 바뀌는 식을 원했다.
+  - 메인 페이지를 대강 구상했지만, 예상만큼 완성도가 나오지 않아서 좀더 디자인과 웹 최적화를 공부하고 해야겠다는 생각으로 중단함.
+
+</details>
+
+### [can you catch circle?, 원을 잡아라](https://github.com/shinkeonkim/can-you-catch-circle)
+
+- 원을 잡는 게임
+
+<img src="https://user-images.githubusercontent.com/47373998/146671635-10c41ed7-fcbc-443a-ab16-1ce7f85d0391.jpg" width="200">
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 간단한 애니메이션을 이용해서 게임 요소를 만들어보고 싶었다.
+
+#### 🍿 What & How
+- 각 스테이지마다 원을 잡는 기믹이 있어야 한다.
+  - 첫번째는 예시로 가만히 있는 원을 클릭하게 한다.
+  - 다음 스테이지에서 원이 좌우로 움직이게 한다.
+  - 그 다음 스테이지를 만들다가 중단함.
+
+</details>
+
+### [likelion-badge, 대학생 멋쟁이사자처럼 프로필을 이쁘게 보여주는 프로젝트](https://github.com/shinkeonkim/likelion-badge)
+
+- 대학생 멋쟁이사자처럼 프로필을 이쁘게 보여주는 프로젝트
+
+<img src="https://raw.githubusercontent.com/shinkeonkim/likelion-badge/e4c75f98836ad11399b3310c81063dde4972a287/svgs/shield_badge.svg" width="150">
+
+<img src="https://raw.githubusercontent.com/shinkeonkim/likelion-badge/e4c75f98836ad11399b3310c81063dde4972a287/svgs/likelion_university_v1.svg" width="500">
+
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 여타 Github README.md에 남기는 내용처럼 멋쟁이사자처럼의 프로필을 예쁘게 남기게 하고 싶었다.
+
+#### 🍿 What & How
+- 간단하게 배포하자
+  - -> heroku에 배포
+  - -> heroku의 유료화 정책으로 해당 프로젝트 삭제 -> 제대로 작동하지 않는 중
+  - github page를 활용해서 단순한 js 로직으로 만들 수 있을지 고민 중에 중단됨.
 
 </details>
 
