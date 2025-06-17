@@ -658,7 +658,6 @@ is_likelion("lion") # False
 
 <img src="https://raw.githubusercontent.com/shinkeonkim/likelion-badge/e4c75f98836ad11399b3310c81063dde4972a287/svgs/likelion_university_v1.svg" width="500">
 
-
 <details>
 <summary>
   자세한 내용 보기
@@ -676,31 +675,6 @@ is_likelion("lion") # False
 </details>
 
 </div>
-
-
-
-
-<!--
-
-### 
-
-- 
-
-<details>
-<summary>
-  자세한 내용 보기
-</summary>
-
-#### ❓ why
-- 
-
-#### 🍿 What & How
-- 
-
-</details>
-
--->
-
 
 
 
