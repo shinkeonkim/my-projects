@@ -5,6 +5,25 @@
 
 ## Done
 
+### [Athena Project, 알고리즘 학습을 도와주는 AI 서비스](https://github.com/shinkeonkim/AD_project_athena)
+
+- Athena는 문제 해결과 학습을 위한 인터랙티브 웹 플랫폼입니다. Django 기반으로 구축되었습니다.
+
+<details>
+<summary>
+  자세한 내용 보기
+</summary>
+
+#### ❓ why
+- 알고리즘 학습에 있어서 AI를 적용해보고자 했음.
+
+#### 🍿 What & How
+- 코드 실행, 채점 등을 지원하면서 정확한 피드백 제공
+- 코드 실행, 채점에 있어서 rust로 작성한 Micro Service를 사용함
+
+</details>
+
+
 ### [pr-archiving, Github PR을 모두 저장할 수 있어요](https://github.com/shinkeonkim/pr-archiving)
 
 - 특정 유저가 작성한 Repository의 Github PR 목록을 가져옵니다. 각 PR 상세 페이지 및 files 페이지의 스크린샷을 저장합니다.
